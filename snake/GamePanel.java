@@ -176,6 +176,12 @@ public class GamePanel extends JPanel implements ActionListener{
 					direction = 'D';
 				}
 				break;
+				case KeyEvent.VK_ENTER:
+                    if(!running){
+                      new GameFrame();
+                        }
+                    break;
+		}	
 			}
 		}
 	}
